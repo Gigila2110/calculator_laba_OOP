@@ -16,6 +16,8 @@ def main():
 
     print ("1. Коло")
     print ("2. Квадрат")
+    print ("3. Прямокутник")
+
     choice = input("Оберіть Фігуру: ")
     if choice == "1":
         r = float(input("Радіус: "))
@@ -24,6 +26,11 @@ def main():
     elif choice == "2":
         s = float(input("Сторона: "))
         print (f"Площа квадрата: {square_area(r):.2f}")
+
+    elif choice == "3": 
+        a = float(input("Перша Сторона:")) 
+        b = float(input("Друга Сторона:")) 
+        print (f"Площа прямокутника: {rectangle_area(a,b):.2f}")
 
 if __name__ == "__main__":
 
