@@ -7,6 +7,9 @@ def circle_area(r):
 def square_area(s):
     return s ** 2
 
+def rectangle_area(a,b): 
+    return a * b
+
 def main():
 
    # print ("Калькулятор геомтеричних фігур")
