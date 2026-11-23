@@ -10,6 +10,9 @@ def square_area(s):
 def rectangle_area(a,b): 
     return a * b
 
+def triangle(a1,h):
+    return 0.5 * a1 * h 
+
 def main():
 
    # print ("Калькулятор геомтеричних фігур")
