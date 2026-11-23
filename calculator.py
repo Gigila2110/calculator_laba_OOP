@@ -10,7 +10,7 @@ def square_area(s):
 def rectangle_area(a,b): 
     return a * b
 
-def triangle(a1,h):
+def triangle_area(a1,h):
     return 0.5 * a1 * h 
 
 def main():
@@ -29,7 +29,7 @@ def main():
 
     elif choice == "2":
         s = float(input("Сторона: "))
-        print (f"Площа квадрата: {square_area(r):.2f}")
+        print (f"Площа квадрата: {square_area(s):.2f}")
 
     elif choice == "3": 
         a = float(input("Перша Сторона:")) 
@@ -37,9 +37,9 @@ def main():
         print (f"Площа прямокутника: {rectangle_area(a,b):.2f}")
 
     elif choice == "4":
-        a1 = float(input("Сторона:"))
+        a1 = float(input("Сторона: "))
         h = float(input("Висота:"))
-        print (f"Площа трикутника: {rectangle_area(a,b):.2f}")
+        print (f"Площа трикутника: {triangle_area(a1,h):.2f}")
 
 if __name__ == "__main__":
 
